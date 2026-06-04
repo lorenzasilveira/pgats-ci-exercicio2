@@ -9,6 +9,11 @@ name: "Exercício 2"
 on:
     workflow_dispatch:
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 #tarefas dentro da pipeline = jobs
 
 jobs:
